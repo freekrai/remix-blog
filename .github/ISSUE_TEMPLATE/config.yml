@@ -1,6 +1,6 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Get Remix Help
+  - name: Get Help with This Stack
     url: https://github.com/freekrai/remix-blog/discussions/new?category=q-a
     about:
       Help with this stack itself. 
