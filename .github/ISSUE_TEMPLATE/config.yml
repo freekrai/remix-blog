@@ -4,7 +4,7 @@ contact_links:
     url: https://github.com/freekrai/remix-blog/discussions/new?category=q-a
     about:
       Help with this stack itself. 
-  - name: Feature Request
+  - name: Feature Request for This Stack
     url: https://github.com/freekrai/remix-blog/discussions/new?category=ideas
     about:
       I appreciate you taking the time to improve Remix Blog with your ideas, but let's
