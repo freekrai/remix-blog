@@ -14,7 +14,7 @@ This blog starter template was inspired by Kent C. Dodds implementation of [kent
 - `content/posts`: blog posts, stored as: `SLUG/index.mdx`
 - `content/pages`: pages, stored as `SLUG/index.mdx`
 
-The structure is based on Gatsby and gives us more flexibility, each page and post is a folder and contains an index.mdx file, this folder name becomes the slug.
+The structure is based on Gatsby and gives us more flexibility, each page and post is a folder and contains an `index.mdx` file, this folder name becomes the slug.
 
 On build, we generate a cached json file in content for all blog posts, which we then reference later for the blog index, rss, sitemap, etc.
 
