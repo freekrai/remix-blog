@@ -43,15 +43,6 @@ export const headers: HeadersFunction = ({loaderHeaders}) => {
 	}
 }
 
-/*
-export let links = ({ context }) => {
-	let seoLinks = getSeoLinks({
-		title: `Welcome ${context.name}`
-	});
-	return [...seoLinks];
-};
-*/
-
 export const meta: MetaFunction = ({data}: {data: LoaderData}) => {
 	if (!data || !data.post) {
 		return {};
