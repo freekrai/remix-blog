@@ -21,6 +21,7 @@ const navigation = {
   main: [
     { name: 'Home', href: '/' },
     { name: 'Blog', href: '/blog' },
+    { name: 'About', href: '/about' },
   ],
   social: [
     {
