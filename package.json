@@ -66,9 +66,10 @@
     "remark-toc": "^8.0.1",
     "rimraf": "^4.4.1",
     "tailwindcss": "^3.3.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.3"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   }
 }
