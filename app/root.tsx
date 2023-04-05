@@ -25,7 +25,7 @@ import { CacheControl } from "~/utils/cache-control.server";
 import { getSeo } from "~/seo";
 let [seoMeta, seoLinks] = getSeo();
 
-import tailwindStyles from "./styles/app.css"
+import tailwindStyles from "./tailwind.css"
 
 import Container from '~/components/Container'
 
