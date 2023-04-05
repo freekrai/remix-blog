@@ -1,5 +1,5 @@
-import type { HeadersFunction, LinksFunction, LoaderFunction, MetaFunction } from "@remix-run/node";
-import { json } from "@remix-run/node";
+import type { HeadersFunction, LinksFunction, LoaderFunction, MetaFunction } from "@vercel/remix";
+import { json } from "@vercel/remix";
 import {
   Links,
   useLoaderData,

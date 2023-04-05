@@ -1,4 +1,4 @@
-import { ErrorBoundaryComponent, json, LoaderArgs, } from '@remix-run/node';
+import { json, LoaderArgs, } from '@vercel/remix';
 import { Link,  useLoaderData } from "@remix-run/react";
 import { BlogPost as BlogPostType } from '~/types';
 import { getPosts } from '~/utils/blog.server';
@@ -47,7 +47,7 @@ export default function Index() {
   );
 }
 
-export const ErrorBoundary: ErrorBoundaryComponent = ({error}) => {
+export const ErrorBoundary = ({error}) => {
   return (
     <main>
       <h1>Unable to fetch list of blog posts. Please check back later</h1>
